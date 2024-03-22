@@ -1,0 +1,134 @@
+.side-bar{
+    /* height: 100%;
+    display: flex;
+    
+    position: absolute;
+    top: 55px;
+    left: 10px;  */
+    height: 130%;
+    width: 99vw;
+    display: flex;
+    position: absolute;
+    top: 52px;
+    left: 0px;
+    z-index: 1;
+}
+.designcontainer{
+  position: relative;
+    background: #FFFFFF;
+    width: 370px;
+     
+}
+.close{
+  position: absolute;
+  right: 5px;
+}
+.container-section-one{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 370px;
+  width: 287px;
+  border-radius: 4px;
+  margin: 34px;
+}
+.container2{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 34px;
+  height: 200px;
+  width: 287px;
+  background: #8676FF;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  padding: 18px;
+  
+}
+.container3{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 34px;
+  height: 150px;
+  width: 287px;
+  text-align: center;
+  padding: 35px;
+  
+}
+.outter {
+  position: relative;
+  top: 5%;
+  left: 33%;
+
+}
+.inner1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: rotate(-90deg);
+}
+.inner2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transform: rotate(-90deg);
+}
+.inner3 {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid #8676ff;
+}
+
+.text-design{
+  text-align: center;
+  font-size: 15px;
+  /* margin-top: 150px; */
+  padding-top: 120px;
+  
+}
+
+.mapContainer{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b9c0e3;
+  border-radius: 30px;
+  margin-left: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.button{
+  position: absolute;
+  top: 140px;
+  z-index: 999;
+}
+.time-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 8px 10px;
+  border-radius: 16px;
+}
+.month{
+  background-color: blue;
+  padding: 0px 5px;
+  color: white;
+  border-radius: 16px;
+}
+.map-numbers-section{
+  /* background-color: yellow; */
+  width: 600px;
+  z-index: 999;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.number-one{
+  display: flex;
+  flex-direction: column;
+}

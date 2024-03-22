@@ -1,0 +1,20 @@
+.map {
+  background: #E2E4F0;
+  width: 100%; 
+  height: calc(100vh - 60px); 
+  padding-top: 60px;
+  overflow: hidden; 
+}
+
+.map-container {
+  width: 100%; 
+  height: calc(100vh - 60px); 
+  overflow: hidden; 
+}
+
+.map img {
+  width: auto; 
+  height: 100%; 
+  display: inline-block; 
+}
+

@@ -1,0 +1,72 @@
+.outer {
+    padding: 0px 25px 0 55px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .outer h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.395px;
+    line-height: 28px;
+  
+    letter-spacing: 0.114969px;
+  
+    color: #171725;
+  }
+  .listOuter {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .listOuter li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0956px;
+    line-height: 28px;
+    /* identical to box height, or 171% */
+  
+    letter-spacing: 0.114969px;
+  
+    color: #44444f;
+  }
+  .span1 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  
+    background: #a46ce9;
+    border-radius: 6.89813px;
+  }
+  .span2 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  
+    background: #fae634;
+    border-radius: 6.89813px;
+  }
+  .span3 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  
+    background: #fc717d;
+    border-radius: 6.89813px;
+  }
+  .span4 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  
+    background: #695dfb;
+    border-radius: 6.89813px;
+  }
+  

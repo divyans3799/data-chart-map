@@ -1,0 +1,56 @@
+
+.header-wrapper{
+    background-color: #FFFFFF;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+.logo-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.header-links{
+    padding: 10px 20px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.4399999976158142px;
+text-align: left;
+color: 
+#8484A0;
+
+}
+.border-bottom{
+    border-bottom: 2px solid #5756B3;
+    color: #000000;
+}
+.search-input{
+    border-radius: 5px;
+    width: 350px;
+    padding: 6px;
+    background-color: #EEF0FA;
+    border: none;
+}
+.search-icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.no-profile-icon{
+    padding: 20px;
+    color: #A1A3D4;
+    margin: 10px;
+}
+.filter-icon{
+    padding: 10px;
+    color: #A1A3D4;
+}

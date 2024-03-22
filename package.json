@@ -1,0 +1,57 @@
+{
+  "name": "data-chart-map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/d3": "^7.4.3",
+    "bootstrap": "^5.3.0-alpha1",
+    "chart.js": "^4.2.1",
+    "cors": "^2.8.5",
+    "d3": "^5.16.0",
+    "d3-geo": "^3.1.1",
+    "d3-hexbin": "^0.2.2",
+    "faker": "^6.6.6",
+    "leaflet": "^1.9.3",
+    "mdbreact": "^5.2.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-d3-hexbin": "^1.0.11",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-leaflet": "^4.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-simple-maps": "^3.0.0",
+    "recharts": "^2.4.3",
+    "topojson": "^3.0.2",
+    "topojson-client": "^3.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

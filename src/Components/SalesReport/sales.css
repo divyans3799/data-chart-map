@@ -1,0 +1,145 @@
+.app{
+    width: 25vw;
+    height: 100vh;  
+    background: #E2E4F0;
+    padding: 20px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+   
+}
+.icon-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}   
+.number{
+   font-weight: bold;
+   margin-top: -10px;
+   /* line-height: 60px; */
+
+}
+.icons1{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+   
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.color-1{
+  background: #8676FF;
+}
+.color-2{
+
+    background: #66C8FF;
+
+  }
+  .color-3{
+    background: #FF9066;
+  }
+  
+.percentage-bar{
+    display: flex;
+}
+.circle-wrap{
+    display: grid;
+    grid-template-columns:  repeat(1, 160px);
+    grid-gap: 80px;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+/* .circle-conatainer{
+    width: 150px;
+    height: 150px;
+    background: #023AFF;
+    border-radius: 50%;
+    background: linear-gradient(90deg ,white);
+}
+.circle-container .circle .item,
+.circle-container .circle .fill{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  
+}
+
+  .inside-content{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #E2E4F0;;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 32px;
+    line-height: 130px;
+    
+
+  }   */
+  .no-progress-bar {
+    background-color: #ddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-right: 3px solid #023AFF;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-progress-bar2 {
+    background-color: #ddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-right: 3px solid #00B929;
+    border-top: 3px solid #00B929;
+    /* border-bottom: 3px solid green; */
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .users-container{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+  }
+  .arrow-icon{
+    position: absolute;
+    top: 15px;
+    left: 180px;
+   
+  }
+  .icon-wrapper{
+    display: flex;
+    margin-top: 40px;
+  }
+  .popup-wrapper{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 100px;
+    left: 350px;
+    height: 70vh;
+    width: 70vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
